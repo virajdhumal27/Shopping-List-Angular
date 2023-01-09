@@ -1,0 +1,10 @@
+<div class="item-container">
+    <p class="item md">{{item.title}}</p>
+    
+    <div class="quantity-group">
+        <button class="btn-op btn-danger lr hand" (click)="decreaseQuantity()">-</button>
+        <p class="quantity md">{{item.quantity}}</p>
+        <button class="btn-op btn-success lr hand" (click)="increaseQuantity()">+</button>
+    </div>
+    <button class="btn btn-danger md hand" (click)="deleteItem(item)">Delete</button>
+</div>

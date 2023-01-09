@@ -1,0 +1,45 @@
+.container {
+    display: block;
+    border: 2px solid black;
+    margin: 2rem;
+    padding: 20px;
+    background-color: rgb(229, 229, 229);
+    border-radius: 20px;
+}
+
+.form-group {
+    display: block;
+    border: 2px solid black;
+    padding: 1rem;
+    background-color: rgb(193, 192, 192);
+    border-radius: 20px;
+    margin: 2em 0;
+}
+
+label {
+    display: block;
+    font-size: 2em;
+}
+
+.textbox {
+    padding: 10px;
+    font-size: 1.5em;
+    border: 1px solid black;
+    width: 75%;
+}
+
+.btn {
+    background-color: green;
+    color: white;
+    font-size: 2em;
+    border-radius: 5px;
+    padding: 1rem 2rem;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+h4 {
+    font-size: 2rem;
+}

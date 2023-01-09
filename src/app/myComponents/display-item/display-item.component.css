@@ -1,0 +1,75 @@
+.item-container {
+    display: flex;
+    border: 2px solid black;
+    margin: 2rem;
+    padding: 0px 20px;
+    background-color: rgb(229, 229, 229);
+    border-radius: 20px;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+
+.item {
+    vertical-align: middle;
+    margin: 2em 0;
+    width: 30%
+}
+
+.quantity-group {
+    display: inline-flex;
+}
+
+.quantity {
+    background-color: aliceblue;
+    border: 2px solid black;
+    padding-top: 0;
+    padding-bottom: 0;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.btn {
+    vertical-align: middle;
+    border-radius: 10px;
+    margin: 30px 2em;
+    padding: 0 1em;
+}
+
+.btn-op {
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    margin: 1em 1.5em;
+}
+
+.btn-success {
+    color: white;
+    background-color: green;
+}
+
+.btn-danger {
+    color: white;
+    background-color: red;
+}
+
+.btn-success:active {
+    background-color: rgb(0, 93, 0);
+}
+
+.btn-danger:active {
+    background-color: rgb(166, 0, 0);
+}
+
+.md {
+    font-size: 1.5em;
+}
+
+.lr {
+    font-size: 2em;
+}
+
+.hand:hover {
+    cursor: pointer;
+}

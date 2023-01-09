@@ -1,0 +1,10 @@
+<app-add-item (itemAdd)="addItem($event)"></app-add-item>
+<div>
+    <h2 class="center">Your Shopping List</h2>
+    <div *ngIf="this.items.length===0; else elseBlock" style="text-align: center;">No Items to display</div>
+    <ng-template #elseBlock>
+        <div *ngFor="let item of items">
+            <app-display-item [item]="item" (itemDelete)="deleteItem($event)"></app-display-item>
+        </div> 
+    </ng-template>
+</div>
